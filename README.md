@@ -5,15 +5,19 @@ a binder, how tightly does it bind, and will it work. This is a measurement of
 how far it gets, on a compound set where all three answers are already known
 from experiment.
 
-> **Companion review** — Hwang Y, Kim J, **Ko JB**, Han Y, Kim Y, Lee KH, Jang S.
+> **Related review** — Hwang Y<sup>†</sup>, Kim J<sup>†</sup>, **Ko JB**<sup>†</sup>, Han Y, Kim Y, Lee KH<sup>\*</sup>, Jang S<sup>\*</sup>.
 > *From affinity to kinetics: SPR as the analytical backbone of AI-driven drug discovery.*
 > **TrAC Trends in Analytical Chemistry** 204:119089 (2026).
-> [doi:10.1016/j.trac.2026.119089](https://doi.org/10.1016/j.trac.2026.119089) · CC BY-NC 4.0
+> [doi:10.1016/j.trac.2026.119089](https://doi.org/10.1016/j.trac.2026.119089) · CC BY-NC 4.0 ·
+> <sup>†</sup> co-first authors, <sup>\*</sup> corresponding authors
 >
 > The review argues that affinity-centric pipelines discard the kinetic
 > quantities that drive in vivo behaviour. This repository tests that claim
-> quantitatively, on the review's own case study, with data the review did not
-> contain.
+> quantitatively, on the A<sub>2A</sub> example the review uses (Section 2.2,
+> Fig. 1B–D), with data the review did not contain.
+>
+> This analysis was done after the review was published. It is not part of the
+> review and was not reviewed by its co-authors.
 
 ## The short version
 
@@ -41,7 +45,7 @@ and the highest efficacy scores near the bottom.
 ## The set
 
 Ground truth is Guo et al., *Br J Pharmacol* 2012;166:1846-1859, the study the
-companion review cites for the efficacy/residence-time relationship. Compound
+review cites for the efficacy/residence-time relationship. Compound
 identity was assigned by matching **both** rate constants against ChEMBL records
 for ADORA2A. All ten matched k<sub>on</sub> and k<sub>off</sub> simultaneously,
 a two-parameter agreement that fixes the mapping, so the structures docked here
@@ -169,10 +173,10 @@ for clinical or regulatory use.
 
 ## Licence
 
-Code is MIT (`LICENSE`). The companion review is CC BY-NC 4.0 and is cited, not
+Code is MIT (`LICENSE`). The review is CC BY-NC 4.0 and is cited, not
 redistributed. Ground-truth values are transcribed from the published literature
 with the source named at the point of use.
 
 ## Author
 
-Ji Beom Ko · co-author of the companion review.
+Ji Beom Ko · co-author of the review.
