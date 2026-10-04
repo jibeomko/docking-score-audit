@@ -17,9 +17,9 @@ from scipy import stats
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from dataset import PUBLISHED
 
-WORK = "/home/kjb9412/a2a_work"
+WORK = os.environ.get("A2A_WORK", os.path.expanduser("~/a2a_work"))
 OUT = f"{WORK}/out"
-FIGDIR = "/home/kjb9412/docking-score-audit/figures/a2a"
+FIGDIR = os.path.normpath(os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "..", "figures", "a2a"))
 
 plt.rcParams.update({
     "font.family": "sans-serif",

@@ -15,9 +15,9 @@ import json, os, subprocess, sys, time
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from dataset import COMPOUNDS, RECEPTORS
 
-WORK = "/home/kjb9412/a2a_work"
-GNINA = "/home/kjb9412/Docking/tools/gnina"
-CUDNN = "/home/kjb9412/miniconda3/envs/sqanti3/lib"
+WORK = os.environ.get("A2A_WORK", os.path.expanduser("~/a2a_work"))
+GNINA = os.environ.get("GNINA", "gnina")
+CUDNN = os.environ.get("CUDNN_LIB", "")   # directory with libcudnn, if gnina needs it
 SEEDS = (42, 7, 1234)
 EXHAUSTIVENESS = 16
 NUM_MODES = 20
@@ -26,7 +26,8 @@ SWEEP = (16, 32, 64)   # sampling-adequacy check, stage 0
 
 def env():
     e = dict(os.environ)
-    e["LD_LIBRARY_PATH"] = CUDNN + ":" + e.get("LD_LIBRARY_PATH", "")
+    if CUDNN:
+        e["LD_LIBRARY_PATH"] = CUDNN + ":" + e.get("LD_LIBRARY_PATH", "")
     return e
 
 

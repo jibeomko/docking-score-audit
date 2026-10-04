@@ -12,10 +12,10 @@ import json, os, subprocess, sys, urllib.request, time
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from dataset import COMPOUNDS, RECEPTORS
 
-WORK = "/home/kjb9412/a2a_work"
+WORK = os.environ.get("A2A_WORK", os.path.expanduser("~/a2a_work"))
 STRUCT = f"{WORK}/structures"
 LIG = f"{WORK}/ligands"
-OBABEL = "/home/kjb9412/miniconda3/envs/dock/bin/obabel"
+OBABEL = os.environ.get("OBABEL", "obabel")
 
 
 def fetch_smiles():

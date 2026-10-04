@@ -141,6 +141,11 @@ sufficient to reproduce every number above.
 ## Reproducing
 
 ```bash
+export A2A_WORK=~/a2a_work           # raw output goes here, outside the repo (default)
+export GNINA=/path/to/gnina          # default: gnina on PATH
+export OBABEL=/path/to/obabel        # default: obabel on PATH
+export CUDNN_LIB=/path/to/cudnn/lib  # only if your gnina build needs it
+
 python3 pipeline/a2a/dataset.py   # self-check of the transcribed ground truth
 python3 pipeline/a2a/prep.py      # ChEMBL structures, receptors, 3D ligands
 python3 pipeline/a2a/dock.py      # sampling sweep, redocking, 90 docking runs
@@ -150,8 +155,7 @@ python3 pipeline/a2a/figure.py
 
 GNINA v1.3.3, RDKit, Open Babel, SciPy. Receptor structures from the PDB; ligand
 structures and kinetic records from ChEMBL; kinetic and efficacy ground truth
-from Guo et al. 2012. Scripts carry absolute paths from the machine they were run
-on; adjust the constants at the top of each before re-running.
+from Guo et al. 2012.
 
 ## Scope and limits
 
