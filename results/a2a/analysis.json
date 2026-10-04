@@ -1,0 +1,731 @@
+{
+ "rows": [
+  {
+   "name": "CGS21680",
+   "chembl_id": "CHEMBL331372",
+   "Ki_nM": 376.0,
+   "pKi": 6.424812155072339,
+   "koff": 0.02,
+   "RT_min": 53.0,
+   "logRT": 1.724275869600789,
+   "kon": 50000.0,
+   "logkon": 4.698970004336019,
+   "eff_impedance": 100.0,
+   "eff_cAMP": 100.0,
+   "cnn_3QAK": 7.373,
+   "cnn_sd_3QAK": 0.132,
+   "vina_3QAK": -9.27,
+   "cnn_2YDV": 8.192,
+   "cnn_sd_2YDV": 0.13,
+   "vina_2YDV": -10.5,
+   "cnn_2YDO": 8.02,
+   "cnn_sd_2YDO": 0.078,
+   "vina_2YDO": -10.78,
+   "cnn_best": 8.192,
+   "cnn_mean_all": 8.106,
+   "vina_best": -10.78,
+   "seed_sd_max": 0.132
+  },
+  {
+   "name": "NECA",
+   "chembl_id": "CHEMBL464859",
+   "Ki_nM": 64.0,
+   "pKi": 7.1938200260161125,
+   "koff": 0.03,
+   "RT_min": 35.0,
+   "logRT": 1.5440680443502757,
+   "kon": 500000.0,
+   "logkon": 5.698970004336019,
+   "eff_impedance": null,
+   "eff_cAMP": null,
+   "cnn_3QAK": 6.456,
+   "cnn_sd_3QAK": 0.003,
+   "vina_3QAK": -8.83,
+   "cnn_2YDV": 7.413,
+   "cnn_sd_2YDV": 0.012,
+   "vina_2YDV": -8.86,
+   "cnn_2YDO": 7.145,
+   "cnn_sd_2YDO": 0.006,
+   "vina_2YDO": -9.01,
+   "cnn_best": 7.413,
+   "cnn_mean_all": 7.279,
+   "vina_best": -9.01,
+   "seed_sd_max": 0.012
+  },
+  {
+   "name": "UK432097",
+   "chembl_id": "CHEMBL1096896",
+   "Ki_nM": 22.0,
+   "pKi": 7.657577319177793,
+   "koff": 0.004,
+   "RT_min": 250.0,
+   "logRT": 2.3979400086720375,
+   "kon": 500000.0,
+   "logkon": 5.698970004336019,
+   "eff_impedance": 114.0,
+   "eff_cAMP": 115.0,
+   "cnn_3QAK": 8.736,
+   "cnn_sd_3QAK": 0.105,
+   "vina_3QAK": -10.83,
+   "cnn_2YDV": 7.483,
+   "cnn_sd_2YDV": 0.29,
+   "vina_2YDV": 2.7,
+   "cnn_2YDO": 7.575,
+   "cnn_sd_2YDO": 0.311,
+   "vina_2YDO": 5.49,
+   "cnn_best": 7.575,
+   "cnn_mean_all": 7.529,
+   "vina_best": 2.7,
+   "seed_sd_max": 0.311
+  },
+  {
+   "name": "LUF5448",
+   "chembl_id": "CHEMBL3932873",
+   "Ki_nM": 219.0,
+   "pKi": 6.6595558851598815,
+   "koff": 0.06,
+   "RT_min": 16.0,
+   "logRT": 1.2041199826559248,
+   "kon": 280000.0,
+   "logkon": 5.447158031342219,
+   "eff_impedance": 83.0,
+   "eff_cAMP": 84.0,
+   "cnn_3QAK": 6.63,
+   "cnn_sd_3QAK": 0.104,
+   "vina_3QAK": -7.19,
+   "cnn_2YDV": 7.291,
+   "cnn_sd_2YDV": 0.283,
+   "vina_2YDV": -6.97,
+   "cnn_2YDO": 7.074,
+   "cnn_sd_2YDO": 0.031,
+   "vina_2YDO": -7.18,
+   "cnn_best": 7.291,
+   "cnn_mean_all": 7.183,
+   "vina_best": -7.18,
+   "seed_sd_max": 0.283
+  },
+  {
+   "name": "LUF5549",
+   "chembl_id": "CHEMBL3981215",
+   "Ki_nM": 24.0,
+   "pKi": 7.619788758288394,
+   "koff": 0.04,
+   "RT_min": 24.0,
+   "logRT": 1.380211241711606,
+   "kon": 2400000.0,
+   "logkon": 6.380211241711606,
+   "eff_impedance": 92.0,
+   "eff_cAMP": 71.0,
+   "cnn_3QAK": 6.19,
+   "cnn_sd_3QAK": 0.337,
+   "vina_3QAK": -7.76,
+   "cnn_2YDV": 7.46,
+   "cnn_sd_2YDV": 0.007,
+   "vina_2YDV": -7.67,
+   "cnn_2YDO": 7.004,
+   "cnn_sd_2YDO": 0.251,
+   "vina_2YDO": -8.08,
+   "cnn_best": 7.46,
+   "cnn_mean_all": 7.232,
+   "vina_best": -8.08,
+   "seed_sd_max": 0.337
+  },
+  {
+   "name": "LUF5550",
+   "chembl_id": "CHEMBL3978846",
+   "Ki_nM": 126.0,
+   "pKi": 6.899629454882437,
+   "koff": 0.09,
+   "RT_min": 12.0,
+   "logRT": 1.0791812460476249,
+   "kon": 800000.0,
+   "logkon": 5.903089986991944,
+   "eff_impedance": 63.0,
+   "eff_cAMP": 39.0,
+   "cnn_3QAK": 6.879,
+   "cnn_sd_3QAK": 0.344,
+   "vina_3QAK": -7.13,
+   "cnn_2YDV": 7.762,
+   "cnn_sd_2YDV": 0.145,
+   "vina_2YDV": -7.46,
+   "cnn_2YDO": 7.606,
+   "cnn_sd_2YDO": 0.096,
+   "vina_2YDO": -7.67,
+   "cnn_best": 7.762,
+   "cnn_mean_all": 7.684,
+   "vina_best": -7.67,
+   "seed_sd_max": 0.344
+  },
+  {
+   "name": "LUF5631",
+   "chembl_id": "CHEMBL3983152",
+   "Ki_nM": 44.0,
+   "pKi": 7.356547323513812,
+   "koff": 0.05,
+   "RT_min": 21.0,
+   "logRT": 1.3222192947339193,
+   "kon": 800000.0,
+   "logkon": 5.903089986991944,
+   "eff_impedance": 91.0,
+   "eff_cAMP": 67.0,
+   "cnn_3QAK": 6.601,
+   "cnn_sd_3QAK": 0.025,
+   "vina_3QAK": -7.47,
+   "cnn_2YDV": 7.313,
+   "cnn_sd_2YDV": 0.006,
+   "vina_2YDV": -8.06,
+   "cnn_2YDO": 7.03,
+   "cnn_sd_2YDO": 0.062,
+   "vina_2YDO": -8.26,
+   "cnn_best": 7.313,
+   "cnn_mean_all": 7.171,
+   "vina_best": -8.26,
+   "seed_sd_max": 0.062
+  },
+  {
+   "name": "LUF5833",
+   "chembl_id": "CHEMBL124345",
+   "Ki_nM": 17.0,
+   "pKi": 7.769551078621726,
+   "koff": 0.16,
+   "RT_min": 6.3,
+   "logRT": 0.7993405494535817,
+   "kon": 8500000.0,
+   "logkon": 6.929418925714293,
+   "eff_impedance": 54.0,
+   "eff_cAMP": 38.0,
+   "cnn_3QAK": 7.564,
+   "cnn_sd_3QAK": 0.048,
+   "vina_3QAK": -8.4,
+   "cnn_2YDV": 7.581,
+   "cnn_sd_2YDV": 0.051,
+   "vina_2YDV": -8.28,
+   "cnn_2YDO": 7.921,
+   "cnn_sd_2YDO": 0.044,
+   "vina_2YDO": -8.65,
+   "cnn_best": 7.921,
+   "cnn_mean_all": 7.751,
+   "vina_best": -8.65,
+   "seed_sd_max": 0.051
+  },
+  {
+   "name": "LUF5834",
+   "chembl_id": "CHEMBL122622",
+   "Ki_nM": 16.0,
+   "pKi": 7.795880017344075,
+   "koff": 0.23,
+   "RT_min": 4.2,
+   "logRT": 0.6232492903979004,
+   "kon": 11000000.0,
+   "logkon": 7.041392685158225,
+   "eff_impedance": 54.0,
+   "eff_cAMP": 50.0,
+   "cnn_3QAK": 7.773,
+   "cnn_sd_3QAK": 0.086,
+   "vina_3QAK": -8.92,
+   "cnn_2YDV": 7.863,
+   "cnn_sd_2YDV": 0.07,
+   "vina_2YDV": -9.11,
+   "cnn_2YDO": 8.01,
+   "cnn_sd_2YDO": 0.09,
+   "vina_2YDO": -9.06,
+   "cnn_best": 8.01,
+   "cnn_mean_all": 7.937,
+   "vina_best": -9.11,
+   "seed_sd_max": 0.09
+  },
+  {
+   "name": "LUF5835",
+   "chembl_id": "CHEMBL122806",
+   "Ki_nM": 15.0,
+   "pKi": 7.823908740944319,
+   "koff": 0.29,
+   "RT_min": 3.4,
+   "logRT": 0.5314789170422551,
+   "kon": 16000000.0,
+   "logkon": 7.204119982655925,
+   "eff_impedance": 47.0,
+   "eff_cAMP": 58.0,
+   "cnn_3QAK": 7.96,
+   "cnn_sd_3QAK": 0.049,
+   "vina_3QAK": -8.72,
+   "cnn_2YDV": 7.955,
+   "cnn_sd_2YDV": 0.066,
+   "vina_2YDV": -8.68,
+   "cnn_2YDO": 8.198,
+   "cnn_sd_2YDO": 0.013,
+   "vina_2YDO": -8.8,
+   "cnn_best": 8.198,
+   "cnn_mean_all": 8.077,
+   "vina_best": -8.8,
+   "seed_sd_max": 0.066
+  }
+ ],
+ "fidelity_checks": {
+  "eff_impedance_vs_logRT": {
+   "n": 9,
+   "spearman": 0.996,
+   "spearman_p": 0.0,
+   "pearson": 0.95,
+   "pearson_p": 0.0001,
+   "r2": 0.903
+  },
+  "eff_impedance_vs_logKi": {
+   "n": 9,
+   "spearman": 0.594,
+   "spearman_p": 0.0916,
+   "pearson": 0.37,
+   "pearson_p": 0.3274,
+   "r2": 0.137
+  },
+  "eff_cAMP_vs_logRT": {
+   "n": 9,
+   "spearman": 0.8,
+   "spearman_p": 0.0096,
+   "pearson": 0.856,
+   "pearson_p": 0.0032,
+   "r2": 0.733
+  },
+  "eff_cAMP_vs_logKi": {
+   "n": 9,
+   "spearman": 0.433,
+   "spearman_p": 0.244,
+   "pearson": 0.329,
+   "pearson_p": 0.3872,
+   "r2": 0.108
+  }
+ },
+ "published": {
+  "eff_impedance_vs_logRT": {
+   "r2": 0.9,
+   "p": "<0.0001"
+  },
+  "eff_impedance_vs_logKi": {
+   "r2": 0.13,
+   "p": "0.32"
+  },
+  "eff_cAMP_vs_logRT": {
+   "r2": 0.74,
+   "p": "<0.001"
+  },
+  "eff_cAMP_vs_logKi": {
+   "r2": 0.1,
+   "p": "0.40"
+  },
+  "potency_vs_logRT": {
+   "r2": 0.077,
+   "p": "0.44"
+  },
+  "kineticKD_vs_Ki": {
+   "r2": 0.99,
+   "p": "<0.0001"
+  }
+ },
+ "score_vs_experiment": {
+  "CNNaffinity_best": {
+   "pKi": {
+    "n": 10,
+    "spearman": 0.43,
+    "spearman_p": 0.2145,
+    "pearson": 0.131,
+    "pearson_p": 0.7193,
+    "r2": 0.017,
+    "r2_ci95": [
+     0.0,
+     0.731
+    ]
+   },
+   "logRT": {
+    "n": 10,
+    "spearman": -0.382,
+    "spearman_p": 0.2763,
+    "pearson": -0.397,
+    "pearson_p": 0.2562,
+    "r2": 0.157,
+    "r2_ci95": [
+     0.001,
+     0.906
+    ]
+   },
+   "logkoff": {
+    "n": 10,
+    "spearman": 0.382,
+    "spearman_p": 0.2763,
+    "pearson": 0.402,
+    "pearson_p": 0.2489,
+    "r2": 0.162,
+    "r2_ci95": [
+     0.001,
+     0.912
+    ]
+   },
+   "logkon": {
+    "n": 10,
+    "spearman": 0.445,
+    "spearman_p": 0.1974,
+    "pearson": 0.306,
+    "pearson_p": 0.3904,
+    "r2": 0.093,
+    "r2_ci95": [
+     0.0,
+     0.913
+    ]
+   },
+   "eff_impedance": {
+    "n": 9,
+    "spearman": -0.427,
+    "spearman_p": 0.252,
+    "pearson": -0.49,
+    "pearson_p": 0.1807,
+    "r2": 0.24,
+    "r2_ci95": [
+     0.002,
+     0.958
+    ]
+   },
+   "eff_cAMP": {
+    "n": 9,
+    "spearman": -0.283,
+    "spearman_p": 0.46,
+    "pearson": -0.218,
+    "pearson_p": 0.5732,
+    "r2": 0.048,
+    "r2_ci95": [
+     0.0,
+     0.668
+    ]
+   }
+  },
+  "CNNaffinity_mean": {
+   "pKi": {
+    "n": 10,
+    "spearman": 0.261,
+    "spearman_p": 0.4671,
+    "pearson": 0.087,
+    "pearson_p": 0.8118,
+    "r2": 0.008,
+    "r2_ci95": [
+     0.0,
+     0.712
+    ]
+   },
+   "logRT": {
+    "n": 10,
+    "spearman": -0.285,
+    "spearman_p": 0.425,
+    "pearson": -0.341,
+    "pearson_p": 0.335,
+    "r2": 0.116,
+    "r2_ci95": [
+     0.0,
+     0.918
+    ]
+   },
+   "logkoff": {
+    "n": 10,
+    "spearman": 0.285,
+    "spearman_p": 0.425,
+    "pearson": 0.347,
+    "pearson_p": 0.3256,
+    "r2": 0.121,
+    "r2_ci95": [
+     0.0,
+     0.926
+    ]
+   },
+   "logkon": {
+    "n": 10,
+    "spearman": 0.25,
+    "spearman_p": 0.486,
+    "pearson": 0.248,
+    "pearson_p": 0.4895,
+    "r2": 0.062,
+    "r2_ci95": [
+     0.0,
+     0.863
+    ]
+   },
+   "eff_impedance": {
+    "n": 9,
+    "spearman": -0.326,
+    "spearman_p": 0.3914,
+    "pearson": -0.449,
+    "pearson_p": 0.2251,
+    "r2": 0.202,
+    "r2_ci95": [
+     0.001,
+     0.965
+    ]
+   },
+   "eff_cAMP": {
+    "n": 9,
+    "spearman": -0.183,
+    "spearman_p": 0.6368,
+    "pearson": -0.158,
+    "pearson_p": 0.6838,
+    "r2": 0.025,
+    "r2_ci95": [
+     0.0,
+     0.67
+    ]
+   }
+  },
+  "Vina_best": {
+   "pKi": {
+    "n": 10,
+    "spearman": -0.091,
+    "spearman_p": 0.8028,
+    "pearson": 0.253,
+    "pearson_p": 0.48,
+    "r2": 0.064,
+    "r2_ci95": [
+     0.0,
+     0.817
+    ]
+   },
+   "logRT": {
+    "n": 10,
+    "spearman": 0.188,
+    "spearman_p": 0.6032,
+    "pearson": 0.648,
+    "pearson_p": 0.0426,
+    "r2": 0.42,
+    "r2_ci95": [
+     0.011,
+     0.884
+    ]
+   },
+   "logkoff": {
+    "n": 10,
+    "spearman": -0.188,
+    "spearman_p": 0.6032,
+    "pearson": -0.659,
+    "pearson_p": 0.0381,
+    "r2": 0.435,
+    "r2_ci95": [
+     0.008,
+     0.885
+    ]
+   },
+   "logkon": {
+    "n": 10,
+    "spearman": -0.171,
+    "spearman_p": 0.6372,
+    "pearson": -0.113,
+    "pearson_p": 0.7567,
+    "r2": 0.013,
+    "r2_ci95": [
+     0.0,
+     0.766
+    ]
+   },
+   "eff_impedance": {
+    "n": 9,
+    "spearman": 0.368,
+    "spearman_p": 0.3296,
+    "pearson": 0.526,
+    "pearson_p": 0.146,
+    "r2": 0.276,
+    "r2_ci95": [
+     0.003,
+     0.828
+    ]
+   },
+   "eff_cAMP": {
+    "n": 9,
+    "spearman": 0.283,
+    "spearman_p": 0.46,
+    "pearson": 0.554,
+    "pearson_p": 0.122,
+    "r2": 0.307,
+    "r2_ci95": [
+     0.012,
+     0.895
+    ]
+   }
+  }
+ },
+ "redock": [
+  {
+   "pdb": "3QAK",
+   "ligand": "UKA",
+   "native": "UK432097",
+   "resolution": 2.71,
+   "n_poses": 20,
+   "rmsd_rank1": 6.758,
+   "rmsd_best": 6.479,
+   "rank_of_best": 8,
+   "cnn_affinity_rank1": 8.902589798,
+   "vina_rank1": -11.93567,
+   "passed": false,
+   "seconds": 175.1
+  },
+  {
+   "pdb": "2YDV",
+   "ligand": "NEC",
+   "native": "NECA",
+   "resolution": 2.6,
+   "n_poses": 20,
+   "rmsd_rank1": 0.226,
+   "rmsd_best": 0.226,
+   "rank_of_best": 1,
+   "cnn_affinity_rank1": 7.4065833092,
+   "vina_rank1": -9.32764,
+   "passed": true,
+   "seconds": 31.3
+  },
+  {
+   "pdb": "2YDO",
+   "ligand": "ADN",
+   "native": null,
+   "resolution": 3.0,
+   "n_poses": 20,
+   "rmsd_rank1": 0.574,
+   "rmsd_best": 0.574,
+   "rank_of_best": 1,
+   "cnn_affinity_rank1": 6.2556724548,
+   "vina_rank1": -8.39181,
+   "passed": true,
+   "seconds": 35.4
+  }
+ ],
+ "meta": {
+  "seeds": [
+   42,
+   7,
+   1234
+  ],
+  "exhaustiveness": 16,
+  "num_modes": 20,
+  "gnina": "v1.3.3",
+  "autobox_add": 6,
+  "box_reference": "co-crystal ligand of each structure"
+ },
+ "sampling_sweep": [
+  {
+   "pdb": "3QAK",
+   "exhaustiveness": 16,
+   "rmsd_rank1": 6.758,
+   "rmsd_best": 6.479,
+   "rank_of_best": 8,
+   "cnn_affinity_rank1": 8.902589798,
+   "seconds": 57.0
+  },
+  {
+   "pdb": "3QAK",
+   "exhaustiveness": 32,
+   "rmsd_rank1": 6.689,
+   "rmsd_best": 6.479,
+   "rank_of_best": 10,
+   "cnn_affinity_rank1": 9.0559473038,
+   "seconds": 350.1
+  },
+  {
+   "pdb": "3QAK",
+   "exhaustiveness": 64,
+   "rmsd_rank1": 7.712,
+   "rmsd_best": 6.479,
+   "rank_of_best": 11,
+   "cnn_affinity_rank1": 8.8977918625,
+   "seconds": 420.1
+  },
+  {
+   "pdb": "2YDV",
+   "exhaustiveness": 16,
+   "rmsd_rank1": 0.226,
+   "rmsd_best": 0.226,
+   "rank_of_best": 1,
+   "cnn_affinity_rank1": 7.4065833092,
+   "seconds": 44.9
+  },
+  {
+   "pdb": "2YDV",
+   "exhaustiveness": 32,
+   "rmsd_rank1": 0.206,
+   "rmsd_best": 0.206,
+   "rank_of_best": 1,
+   "cnn_affinity_rank1": 7.4339165688,
+   "seconds": 33.5
+  },
+  {
+   "pdb": "2YDV",
+   "exhaustiveness": 64,
+   "rmsd_rank1": 0.223,
+   "rmsd_best": 0.223,
+   "rank_of_best": 1,
+   "cnn_affinity_rank1": 7.4508385658,
+   "seconds": 34.7
+  },
+  {
+   "pdb": "2YDO",
+   "exhaustiveness": 16,
+   "rmsd_rank1": 0.574,
+   "rmsd_best": 0.574,
+   "rank_of_best": 1,
+   "cnn_affinity_rank1": 6.2556724548,
+   "seconds": 34.4
+  },
+  {
+   "pdb": "2YDO",
+   "exhaustiveness": 32,
+   "rmsd_rank1": 0.566,
+   "rmsd_best": 0.566,
+   "rank_of_best": 1,
+   "cnn_affinity_rank1": 6.2421793938,
+   "seconds": 68.3
+  },
+  {
+   "pdb": "2YDO",
+   "exhaustiveness": 64,
+   "rmsd_rank1": 0.566,
+   "rmsd_best": 0.566,
+   "rank_of_best": 1,
+   "cnn_affinity_rank1": 6.2421793938,
+   "seconds": 91.8
+  }
+ ],
+ "selection_simulation": {
+  "n": 9,
+  "top_k": 3,
+  "mean_efficacy_whole_set": 77.6,
+  "mean_efficacy_perfect_pick": 102.0,
+  "by_criterion": {
+   "residence time (SPR)": {
+    "picks": [
+     "UK432097",
+     "CGS21680",
+     "LUF5549"
+    ],
+    "mean_efficacy": 102.0,
+    "vs_random": 24.4
+   },
+   "affinity (1/Ki)": {
+    "picks": [
+     "LUF5835",
+     "LUF5834",
+     "LUF5833"
+    ],
+    "mean_efficacy": 51.7,
+    "vs_random": -25.9
+   },
+   "GNINA CNNaffinity": {
+    "picks": [
+     "LUF5835",
+     "CGS21680",
+     "LUF5834"
+    ],
+    "mean_efficacy": 67.0,
+    "vs_random": -10.6
+   },
+   "Vina (most negative)": {
+    "picks": [
+     "CGS21680",
+     "LUF5834",
+     "LUF5835"
+    ],
+    "mean_efficacy": 67.0,
+    "vs_random": -10.6
+   }
+  }
+ }
+}

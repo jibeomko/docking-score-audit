@@ -1,0 +1,943 @@
+{
+ "meta": {
+  "seeds": [
+   42,
+   7,
+   1234
+  ],
+  "exhaustiveness": 16,
+  "num_modes": 20,
+  "gnina": "v1.3.3",
+  "autobox_add": 6,
+  "box_reference": "co-crystal ligand of each structure"
+ },
+ "redock": [
+  {
+   "pdb": "3QAK",
+   "ligand": "UKA",
+   "native": "UK432097",
+   "resolution": 2.71,
+   "n_poses": 20,
+   "rmsd_rank1": 6.758,
+   "rmsd_best": 6.479,
+   "rank_of_best": 8,
+   "cnn_affinity_rank1": 8.902589798,
+   "vina_rank1": -11.93567,
+   "passed": false,
+   "seconds": 175.1
+  },
+  {
+   "pdb": "2YDV",
+   "ligand": "NEC",
+   "native": "NECA",
+   "resolution": 2.6,
+   "n_poses": 20,
+   "rmsd_rank1": 0.226,
+   "rmsd_best": 0.226,
+   "rank_of_best": 1,
+   "cnn_affinity_rank1": 7.4065833092,
+   "vina_rank1": -9.32764,
+   "passed": true,
+   "seconds": 31.3
+  },
+  {
+   "pdb": "2YDO",
+   "ligand": "ADN",
+   "native": null,
+   "resolution": 3.0,
+   "n_poses": 20,
+   "rmsd_rank1": 0.574,
+   "rmsd_best": 0.574,
+   "rank_of_best": 1,
+   "cnn_affinity_rank1": 6.2556724548,
+   "vina_rank1": -8.39181,
+   "passed": true,
+   "seconds": 35.4
+  }
+ ],
+ "prospective": {
+  "CGS21680": {
+   "3QAK": [
+    {
+     "seed": 42,
+     "cnn_affinity": 7.3569145203,
+     "cnn_score": 0.9210537672,
+     "vina": -9.33607,
+     "n_poses": 20,
+     "seconds": 42.9
+    },
+    {
+     "seed": 7,
+     "cnn_affinity": 7.5126852989,
+     "cnn_score": 0.926728785,
+     "vina": -9.079,
+     "n_poses": 20,
+     "seconds": 38.0
+    },
+    {
+     "seed": 1234,
+     "cnn_affinity": 7.2507853508,
+     "cnn_score": 0.898899138,
+     "vina": -9.40009,
+     "n_poses": 20,
+     "seconds": 40.6
+    }
+   ],
+   "2YDV": [
+    {
+     "seed": 42,
+     "cnn_affinity": 8.0420179367,
+     "cnn_score": 0.953283906,
+     "vina": -10.40649,
+     "n_poses": 20,
+     "seconds": 37.9
+    },
+    {
+     "seed": 7,
+     "cnn_affinity": 8.2759284973,
+     "cnn_score": 0.9736096263,
+     "vina": -10.5092,
+     "n_poses": 20,
+     "seconds": 36.6
+    },
+    {
+     "seed": 1234,
+     "cnn_affinity": 8.2571268082,
+     "cnn_score": 0.960953176,
+     "vina": -10.59214,
+     "n_poses": 20,
+     "seconds": 40.3
+    }
+   ],
+   "2YDO": [
+    {
+     "seed": 42,
+     "cnn_affinity": 8.1097726822,
+     "cnn_score": 0.9583621621,
+     "vina": -10.62992,
+     "n_poses": 20,
+     "seconds": 43.9
+    },
+    {
+     "seed": 7,
+     "cnn_affinity": 7.9818630219,
+     "cnn_score": 0.916077137,
+     "vina": -10.8506,
+     "n_poses": 20,
+     "seconds": 39.4
+    },
+    {
+     "seed": 1234,
+     "cnn_affinity": 7.9675574303,
+     "cnn_score": 0.9108163714,
+     "vina": -10.85553,
+     "n_poses": 20,
+     "seconds": 35.6
+    }
+   ]
+  },
+  "NECA": {
+   "3QAK": [
+    {
+     "seed": 42,
+     "cnn_affinity": 6.4547467232,
+     "cnn_score": 0.9753577709,
+     "vina": -8.83434,
+     "n_poses": 20,
+     "seconds": 31.7
+    },
+    {
+     "seed": 7,
+     "cnn_affinity": 6.4591636658,
+     "cnn_score": 0.9749941826,
+     "vina": -8.82801,
+     "n_poses": 20,
+     "seconds": 31.8
+    },
+    {
+     "seed": 1234,
+     "cnn_affinity": 6.4545035362,
+     "cnn_score": 0.9751898646,
+     "vina": -8.83304,
+     "n_poses": 20,
+     "seconds": 33.2
+    }
+   ],
+   "2YDV": [
+    {
+     "seed": 42,
+     "cnn_affinity": 7.4258670807,
+     "cnn_score": 0.9952516556,
+     "vina": -8.85314,
+     "n_poses": 20,
+     "seconds": 31.0
+    },
+    {
+     "seed": 7,
+     "cnn_affinity": 7.4034705162,
+     "cnn_score": 0.9957617521,
+     "vina": -8.88198,
+     "n_poses": 20,
+     "seconds": 33.7
+    },
+    {
+     "seed": 1234,
+     "cnn_affinity": 7.4094119072,
+     "cnn_score": 0.9950268269,
+     "vina": -8.8465,
+     "n_poses": 20,
+     "seconds": 33.1
+    }
+   ],
+   "2YDO": [
+    {
+     "seed": 42,
+     "cnn_affinity": 7.1515908241,
+     "cnn_score": 0.9902718067,
+     "vina": -9.00288,
+     "n_poses": 20,
+     "seconds": 32.6
+    },
+    {
+     "seed": 7,
+     "cnn_affinity": 7.1440658569,
+     "cnn_score": 0.9903573394,
+     "vina": -9.00896,
+     "n_poses": 20,
+     "seconds": 33.0
+    },
+    {
+     "seed": 1234,
+     "cnn_affinity": 7.1405601501,
+     "cnn_score": 0.990341723,
+     "vina": -9.0144,
+     "n_poses": 20,
+     "seconds": 31.0
+    }
+   ]
+  },
+  "UK432097": {
+   "3QAK": [
+    {
+     "seed": 42,
+     "cnn_affinity": 8.6719865799,
+     "cnn_score": 0.9037195444,
+     "vina": -10.79616,
+     "n_poses": 20,
+     "seconds": 52.3
+    },
+    {
+     "seed": 7,
+     "cnn_affinity": 8.8569478989,
+     "cnn_score": 0.9106323123,
+     "vina": -10.8045,
+     "n_poses": 20,
+     "seconds": 51.2
+    },
+    {
+     "seed": 1234,
+     "cnn_affinity": 8.6776199341,
+     "cnn_score": 0.9070659876,
+     "vina": -10.89182,
+     "n_poses": 20,
+     "seconds": 47.3
+    }
+   ],
+   "2YDV": [
+    {
+     "seed": 42,
+     "cnn_affinity": 7.4011626244,
+     "cnn_score": 0.4103753269,
+     "vina": 1.44082,
+     "n_poses": 20,
+     "seconds": 68.1
+    },
+    {
+     "seed": 7,
+     "cnn_affinity": 7.8051605225,
+     "cnn_score": 0.3350246549,
+     "vina": 4.50168,
+     "n_poses": 20,
+     "seconds": 68.9
+    },
+    {
+     "seed": 1234,
+     "cnn_affinity": 7.2432627678,
+     "cnn_score": 0.2811000347,
+     "vina": 2.14333,
+     "n_poses": 20,
+     "seconds": 68.2
+    }
+   ],
+   "2YDO": [
+    {
+     "seed": 42,
+     "cnn_affinity": 7.9263167381,
+     "cnn_score": 0.3554240763,
+     "vina": 2.21954,
+     "n_poses": 20,
+     "seconds": 66.1
+    },
+    {
+     "seed": 7,
+     "cnn_affinity": 7.3362388611,
+     "cnn_score": 0.5218502283,
+     "vina": 13.94755,
+     "n_poses": 20,
+     "seconds": 61.7
+    },
+    {
+     "seed": 1234,
+     "cnn_affinity": 7.4630990028,
+     "cnn_score": 0.389921397,
+     "vina": 0.30015,
+     "n_poses": 20,
+     "seconds": 71.9
+    }
+   ]
+  },
+  "LUF5448": {
+   "3QAK": [
+    {
+     "seed": 42,
+     "cnn_affinity": 6.67370224,
+     "cnn_score": 0.6468370557,
+     "vina": -6.46379,
+     "n_poses": 20,
+     "seconds": 38.6
+    },
+    {
+     "seed": 7,
+     "cnn_affinity": 6.5113754272,
+     "cnn_score": 0.6561412215,
+     "vina": -6.72278,
+     "n_poses": 20,
+     "seconds": 35.3
+    },
+    {
+     "seed": 1234,
+     "cnn_affinity": 6.7053933144,
+     "cnn_score": 0.5521933436,
+     "vina": -8.38757,
+     "n_poses": 20,
+     "seconds": 36.1
+    }
+   ],
+   "2YDV": [
+    {
+     "seed": 42,
+     "cnn_affinity": 7.1772542,
+     "cnn_score": 0.7342361212,
+     "vina": -7.20054,
+     "n_poses": 20,
+     "seconds": 36.9
+    },
+    {
+     "seed": 7,
+     "cnn_affinity": 7.0831389427,
+     "cnn_score": 0.8314365149,
+     "vina": -6.53275,
+     "n_poses": 20,
+     "seconds": 34.1
+    },
+    {
+     "seed": 1234,
+     "cnn_affinity": 7.6140227318,
+     "cnn_score": 0.8888809681,
+     "vina": -7.16688,
+     "n_poses": 20,
+     "seconds": 40.7
+    }
+   ],
+   "2YDO": [
+    {
+     "seed": 42,
+     "cnn_affinity": 7.1097426414,
+     "cnn_score": 0.8763278723,
+     "vina": -6.88035,
+     "n_poses": 20,
+     "seconds": 27.2
+    },
+    {
+     "seed": 7,
+     "cnn_affinity": 7.0504589081,
+     "cnn_score": 0.8706098795,
+     "vina": -6.91265,
+     "n_poses": 20,
+     "seconds": 22.3
+    },
+    {
+     "seed": 1234,
+     "cnn_affinity": 7.0620522499,
+     "cnn_score": 0.8856045008,
+     "vina": -7.7602,
+     "n_poses": 20,
+     "seconds": 34.7
+    }
+   ]
+  },
+  "LUF5549": {
+   "3QAK": [
+    {
+     "seed": 42,
+     "cnn_affinity": 6.0017743111,
+     "cnn_score": 0.4336277544,
+     "vina": -7.93767,
+     "n_poses": 20,
+     "seconds": 33.4
+    },
+    {
+     "seed": 7,
+     "cnn_affinity": 5.9888863564,
+     "cnn_score": 0.4169243872,
+     "vina": -7.91992,
+     "n_poses": 20,
+     "seconds": 32.5
+    },
+    {
+     "seed": 1234,
+     "cnn_affinity": 6.579056263,
+     "cnn_score": 0.7271933556,
+     "vina": -7.42292,
+     "n_poses": 20,
+     "seconds": 34.9
+    }
+   ],
+   "2YDV": [
+    {
+     "seed": 42,
+     "cnn_affinity": 7.4639391899,
+     "cnn_score": 0.8930453062,
+     "vina": -7.66258,
+     "n_poses": 20,
+     "seconds": 37.0
+    },
+    {
+     "seed": 7,
+     "cnn_affinity": 7.4520683289,
+     "cnn_score": 0.8899555802,
+     "vina": -7.67457,
+     "n_poses": 20,
+     "seconds": 32.3
+    },
+    {
+     "seed": 1234,
+     "cnn_affinity": 7.46362257,
+     "cnn_score": 0.8905680776,
+     "vina": -7.66739,
+     "n_poses": 20,
+     "seconds": 33.9
+    }
+   ],
+   "2YDO": [
+    {
+     "seed": 42,
+     "cnn_affinity": 7.2248740196,
+     "cnn_score": 0.8717364073,
+     "vina": -7.82208,
+     "n_poses": 20,
+     "seconds": 35.2
+    },
+    {
+     "seed": 7,
+     "cnn_affinity": 7.0558815002,
+     "cnn_score": 0.8567845225,
+     "vina": -8.30582,
+     "n_poses": 20,
+     "seconds": 38.1
+    },
+    {
+     "seed": 1234,
+     "cnn_affinity": 6.7303919792,
+     "cnn_score": 0.8712659478,
+     "vina": -8.10164,
+     "n_poses": 20,
+     "seconds": 37.2
+    }
+   ]
+  },
+  "LUF5550": {
+   "3QAK": [
+    {
+     "seed": 42,
+     "cnn_affinity": 6.4836468697,
+     "cnn_score": 0.4863849878,
+     "vina": -7.35642,
+     "n_poses": 20,
+     "seconds": 32.6
+    },
+    {
+     "seed": 7,
+     "cnn_affinity": 7.1113915443,
+     "cnn_score": 0.8400967717,
+     "vina": -7.04017,
+     "n_poses": 20,
+     "seconds": 40.9
+    },
+    {
+     "seed": 1234,
+     "cnn_affinity": 7.0405478477,
+     "cnn_score": 0.7991839051,
+     "vina": -6.99718,
+     "n_poses": 20,
+     "seconds": 34.5
+    }
+   ],
+   "2YDV": [
+    {
+     "seed": 42,
+     "cnn_affinity": 7.6538567543,
+     "cnn_score": 0.9558545947,
+     "vina": -7.46613,
+     "n_poses": 20,
+     "seconds": 30.3
+    },
+    {
+     "seed": 7,
+     "cnn_affinity": 7.7052097321,
+     "cnn_score": 0.9590196013,
+     "vina": -7.4553,
+     "n_poses": 20,
+     "seconds": 40.7
+    },
+    {
+     "seed": 1234,
+     "cnn_affinity": 7.926296711,
+     "cnn_score": 0.951636076,
+     "vina": -7.46034,
+     "n_poses": 20,
+     "seconds": 33.3
+    }
+   ],
+   "2YDO": [
+    {
+     "seed": 42,
+     "cnn_affinity": 7.6882324219,
+     "cnn_score": 0.9232765436,
+     "vina": -7.53147,
+     "n_poses": 20,
+     "seconds": 33.4
+    },
+    {
+     "seed": 7,
+     "cnn_affinity": 7.5000457764,
+     "cnn_score": 0.9249649644,
+     "vina": -7.83013,
+     "n_poses": 20,
+     "seconds": 34.2
+    },
+    {
+     "seed": 1234,
+     "cnn_affinity": 7.630261898,
+     "cnn_score": 0.91298002,
+     "vina": -7.66167,
+     "n_poses": 20,
+     "seconds": 34.7
+    }
+   ]
+  },
+  "LUF5631": {
+   "3QAK": [
+    {
+     "seed": 42,
+     "cnn_affinity": 6.6276965141,
+     "cnn_score": 0.7350256443,
+     "vina": -7.54118,
+     "n_poses": 20,
+     "seconds": 37.1
+    },
+    {
+     "seed": 7,
+     "cnn_affinity": 6.5959510803,
+     "cnn_score": 0.7195047736,
+     "vina": -7.32921,
+     "n_poses": 20,
+     "seconds": 34.9
+    },
+    {
+     "seed": 1234,
+     "cnn_affinity": 6.5779891014,
+     "cnn_score": 0.7133857608,
+     "vina": -7.54092,
+     "n_poses": 20,
+     "seconds": 33.1
+    }
+   ],
+   "2YDV": [
+    {
+     "seed": 42,
+     "cnn_affinity": 7.3153977394,
+     "cnn_score": 0.9138319492,
+     "vina": -8.04976,
+     "n_poses": 20,
+     "seconds": 31.4
+    },
+    {
+     "seed": 7,
+     "cnn_affinity": 7.3058681488,
+     "cnn_score": 0.9134892225,
+     "vina": -8.05924,
+     "n_poses": 20,
+     "seconds": 35.2
+    },
+    {
+     "seed": 1234,
+     "cnn_affinity": 7.3180656433,
+     "cnn_score": 0.9147439003,
+     "vina": -8.07428,
+     "n_poses": 20,
+     "seconds": 28.2
+    }
+   ],
+   "2YDO": [
+    {
+     "seed": 42,
+     "cnn_affinity": 6.9584922791,
+     "cnn_score": 0.9116126299,
+     "vina": -8.27603,
+     "n_poses": 20,
+     "seconds": 32.9
+    },
+    {
+     "seed": 7,
+     "cnn_affinity": 7.0674247742,
+     "cnn_score": 0.8886729479,
+     "vina": -7.99629,
+     "n_poses": 20,
+     "seconds": 27.0
+    },
+    {
+     "seed": 1234,
+     "cnn_affinity": 7.0637145042,
+     "cnn_score": 0.9097880721,
+     "vina": -8.49798,
+     "n_poses": 20,
+     "seconds": 30.9
+    }
+   ]
+  },
+  "LUF5833": {
+   "3QAK": [
+    {
+     "seed": 42,
+     "cnn_affinity": 7.5369696617,
+     "cnn_score": 0.8153709173,
+     "vina": -8.49704,
+     "n_poses": 20,
+     "seconds": 31.2
+    },
+    {
+     "seed": 7,
+     "cnn_affinity": 7.5361132622,
+     "cnn_score": 0.8145290017,
+     "vina": -8.46806,
+     "n_poses": 20,
+     "seconds": 26.3
+    },
+    {
+     "seed": 1234,
+     "cnn_affinity": 7.6199879646,
+     "cnn_score": 0.8356613517,
+     "vina": -8.24966,
+     "n_poses": 20,
+     "seconds": 25.1
+    }
+   ],
+   "2YDV": [
+    {
+     "seed": 42,
+     "cnn_affinity": 7.5667328835,
+     "cnn_score": 0.8592858315,
+     "vina": -8.89745,
+     "n_poses": 20,
+     "seconds": 23.9
+    },
+    {
+     "seed": 7,
+     "cnn_affinity": 7.539452076,
+     "cnn_score": 0.8327478766,
+     "vina": -8.52618,
+     "n_poses": 20,
+     "seconds": 27.0
+    },
+    {
+     "seed": 1234,
+     "cnn_affinity": 7.6376152039,
+     "cnn_score": 0.8702734709,
+     "vina": -7.41546,
+     "n_poses": 20,
+     "seconds": 23.8
+    }
+   ],
+   "2YDO": [
+    {
+     "seed": 42,
+     "cnn_affinity": 7.882039547,
+     "cnn_score": 0.9165720344,
+     "vina": -8.54083,
+     "n_poses": 20,
+     "seconds": 22.7
+    },
+    {
+     "seed": 7,
+     "cnn_affinity": 7.9681363106,
+     "cnn_score": 0.93411237,
+     "vina": -8.42333,
+     "n_poses": 20,
+     "seconds": 28.7
+    },
+    {
+     "seed": 1234,
+     "cnn_affinity": 7.9138703346,
+     "cnn_score": 0.9287441373,
+     "vina": -8.99168,
+     "n_poses": 20,
+     "seconds": 23.5
+    }
+   ]
+  },
+  "LUF5834": {
+   "3QAK": [
+    {
+     "seed": 42,
+     "cnn_affinity": 7.8013153076,
+     "cnn_score": 0.8176201582,
+     "vina": -8.79131,
+     "n_poses": 20,
+     "seconds": 34.2
+    },
+    {
+     "seed": 7,
+     "cnn_affinity": 7.6762623787,
+     "cnn_score": 0.8291097283,
+     "vina": -9.1818,
+     "n_poses": 20,
+     "seconds": 33.9
+    },
+    {
+     "seed": 1234,
+     "cnn_affinity": 7.8410315514,
+     "cnn_score": 0.8286325336,
+     "vina": -8.77601,
+     "n_poses": 20,
+     "seconds": 31.2
+    }
+   ],
+   "2YDV": [
+    {
+     "seed": 42,
+     "cnn_affinity": 7.9059758186,
+     "cnn_score": 0.874955833,
+     "vina": -9.06636,
+     "n_poses": 20,
+     "seconds": 35.8
+    },
+    {
+     "seed": 7,
+     "cnn_affinity": 7.7821469307,
+     "cnn_score": 0.8734558821,
+     "vina": -9.18022,
+     "n_poses": 20,
+     "seconds": 27.0
+    },
+    {
+     "seed": 1234,
+     "cnn_affinity": 7.901889801,
+     "cnn_score": 0.870559454,
+     "vina": -9.07269,
+     "n_poses": 20,
+     "seconds": 28.0
+    }
+   ],
+   "2YDO": [
+    {
+     "seed": 42,
+     "cnn_affinity": 8.0623836517,
+     "cnn_score": 0.8944115043,
+     "vina": -9.24132,
+     "n_poses": 20,
+     "seconds": 35.1
+    },
+    {
+     "seed": 7,
+     "cnn_affinity": 8.0623254776,
+     "cnn_score": 0.9198213816,
+     "vina": -9.18674,
+     "n_poses": 20,
+     "seconds": 24.0
+    },
+    {
+     "seed": 1234,
+     "cnn_affinity": 7.906463623,
+     "cnn_score": 0.8706740141,
+     "vina": -8.7523,
+     "n_poses": 20,
+     "seconds": 22.5
+    }
+   ]
+  },
+  "LUF5835": {
+   "3QAK": [
+    {
+     "seed": 42,
+     "cnn_affinity": 7.9028248787,
+     "cnn_score": 0.8852621317,
+     "vina": -8.74611,
+     "n_poses": 20,
+     "seconds": 31.0
+    },
+    {
+     "seed": 7,
+     "cnn_affinity": 7.9828381538,
+     "cnn_score": 0.8817626834,
+     "vina": -8.70483,
+     "n_poses": 20,
+     "seconds": 31.9
+    },
+    {
+     "seed": 1234,
+     "cnn_affinity": 7.993309021,
+     "cnn_score": 0.8824027777,
+     "vina": -8.70729,
+     "n_poses": 20,
+     "seconds": 32.2
+    }
+   ],
+   "2YDV": [
+    {
+     "seed": 42,
+     "cnn_affinity": 7.8813261986,
+     "cnn_score": 0.9342820048,
+     "vina": -9.02108,
+     "n_poses": 20,
+     "seconds": 36.8
+    },
+    {
+     "seed": 7,
+     "cnn_affinity": 8.0083093643,
+     "cnn_score": 0.9417043924,
+     "vina": -8.35337,
+     "n_poses": 20,
+     "seconds": 31.0
+    },
+    {
+     "seed": 1234,
+     "cnn_affinity": 7.975458622,
+     "cnn_score": 0.9437148571,
+     "vina": -8.67263,
+     "n_poses": 20,
+     "seconds": 31.2
+    }
+   ],
+   "2YDO": [
+    {
+     "seed": 42,
+     "cnn_affinity": 8.1977653503,
+     "cnn_score": 0.9352754951,
+     "vina": -9.05957,
+     "n_poses": 20,
+     "seconds": 22.0
+    },
+    {
+     "seed": 7,
+     "cnn_affinity": 8.2120065689,
+     "cnn_score": 0.9196620584,
+     "vina": -8.30496,
+     "n_poses": 20,
+     "seconds": 26.4
+    },
+    {
+     "seed": 1234,
+     "cnn_affinity": 8.1855983734,
+     "cnn_score": 0.9319083095,
+     "vina": -9.02827,
+     "n_poses": 20,
+     "seconds": 27.2
+    }
+   ]
+  }
+ },
+ "sampling_sweep": [
+  {
+   "pdb": "3QAK",
+   "exhaustiveness": 16,
+   "rmsd_rank1": 6.758,
+   "rmsd_best": 6.479,
+   "rank_of_best": 8,
+   "cnn_affinity_rank1": 8.902589798,
+   "seconds": 57.0
+  },
+  {
+   "pdb": "3QAK",
+   "exhaustiveness": 32,
+   "rmsd_rank1": 6.689,
+   "rmsd_best": 6.479,
+   "rank_of_best": 10,
+   "cnn_affinity_rank1": 9.0559473038,
+   "seconds": 350.1
+  },
+  {
+   "pdb": "3QAK",
+   "exhaustiveness": 64,
+   "rmsd_rank1": 7.712,
+   "rmsd_best": 6.479,
+   "rank_of_best": 11,
+   "cnn_affinity_rank1": 8.8977918625,
+   "seconds": 420.1
+  },
+  {
+   "pdb": "2YDV",
+   "exhaustiveness": 16,
+   "rmsd_rank1": 0.226,
+   "rmsd_best": 0.226,
+   "rank_of_best": 1,
+   "cnn_affinity_rank1": 7.4065833092,
+   "seconds": 44.9
+  },
+  {
+   "pdb": "2YDV",
+   "exhaustiveness": 32,
+   "rmsd_rank1": 0.206,
+   "rmsd_best": 0.206,
+   "rank_of_best": 1,
+   "cnn_affinity_rank1": 7.4339165688,
+   "seconds": 33.5
+  },
+  {
+   "pdb": "2YDV",
+   "exhaustiveness": 64,
+   "rmsd_rank1": 0.223,
+   "rmsd_best": 0.223,
+   "rank_of_best": 1,
+   "cnn_affinity_rank1": 7.4508385658,
+   "seconds": 34.7
+  },
+  {
+   "pdb": "2YDO",
+   "exhaustiveness": 16,
+   "rmsd_rank1": 0.574,
+   "rmsd_best": 0.574,
+   "rank_of_best": 1,
+   "cnn_affinity_rank1": 6.2556724548,
+   "seconds": 34.4
+  },
+  {
+   "pdb": "2YDO",
+   "exhaustiveness": 32,
+   "rmsd_rank1": 0.566,
+   "rmsd_best": 0.566,
+   "rank_of_best": 1,
+   "cnn_affinity_rank1": 6.2421793938,
+   "seconds": 68.3
+  },
+  {
+   "pdb": "2YDO",
+   "exhaustiveness": 64,
+   "rmsd_rank1": 0.566,
+   "rmsd_best": 0.566,
+   "rank_of_best": 1,
+   "cnn_affinity_rank1": 6.2421793938,
+   "seconds": 91.8
+  }
+ ]
+}
